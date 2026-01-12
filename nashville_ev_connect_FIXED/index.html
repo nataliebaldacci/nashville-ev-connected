@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashville EV Connect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #2c3e50;
+            --navy-dark: #1a252f;
+            --navy-light: #34495e;
+            --gold: #f1c40f;
+            --gold-light: #f9e79f;
+            --white: #ffffff;
+            --gray-50: #f8fafc;
+            --gray-100: #f1f5f9;
+            --gray-200: #e2e8f0;
+            --gray-300: #cbd5e1;
+            --gray-400: #94a3b8;
+            --gray-500: #64748b;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1e293b;
+            --green: #22c55e;
+            --amber: #f59e0b;
+            --blue: #3b82f6;
+            --red: #ef4444;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font);
+            background: var(--gray-50);
+            color: var(--gray-800);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: var(--navy);
+            color: var(--white);
+            padding: 0 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--white);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .nav-link {
+            padding: 8px 16px;
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--white);
+            background: rgba(255,255,255,0.1);
+        }
+
+        .nav-link.active {
+            color: var(--gold);
+        }
+
+        /* Dropdown */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--white);
+            min-width: 220px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            margin-top: 4px;
+            overflow: hidden;
+            z-index: 1001;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            color: var(--gray-700);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .dropdown-content a:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-content a:hover {
+            background: var(--gray-50);
+            color: var(--navy);
+        }
+
+        .dropdown-content a strong {
+            display: block;
+            color: var(--navy);
+            margin-bottom: 2px;
+        }
+
+        .dropdown-content a .desc {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+        }
+
+        .nav-link .arrow {
+            font-size: 0.6rem;
+            margin-left: 4px;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: var(--white);
+            padding: 60px 24px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section {
+            padding: 48px 0;
+        }
+
+        .section-header {
+            margin-bottom: 32px;
+        }
+
+        .section-header h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+
+        .section-header p {
+            color: var(--gray-500);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 24px;
+            text-decoration: none;
+            color: var(--gray-800);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            border: 1px solid var(--gray-200);
+            transition: all 0.2s ease;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-color: var(--navy);
+            transform: translateY(-2px);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--gray-100);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .feature-card:hover .feature-icon {
+            background: var(--gold-light);
+        }
+
+        .feature-card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--navy);
+        }
+
+        .feature-card p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            margin-bottom: 16px;
+        }
+
+        .feature-card .arrow {
+            color: var(--navy);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .legislation-section {
+            background: var(--white);
+            border-top: 1px solid var(--gray-200);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .bill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .bill-card {
+            background: var(--gray-50);
+            border-radius: 12px;
+            padding: 24px;
+            border: 1px solid var(--gray-200);
+        }
+
+        .bill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 12px;
+        }
+
+        .bill-number {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-success {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .badge-warning {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .bill-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .bill-card p {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+            margin-bottom: 16px;
+        }
+
+        .bill-card a {
+            color: var(--navy);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .bill-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            padding: 32px 24px;
+            text-align: center;
+            border-top: 1px solid var(--gray-200);
+            background: var(--white);
+        }
+
+        footer p {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+        }
+
+        footer a {
+            color: var(--navy);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .mobile-menu-btn { display: block; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background: var(--navy);
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                <span class="logo-text">Nashville EV Connect</span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="nav-link active">Home</a>
+                
+                <div class="dropdown">
+                    <a href="nashville_ev_explorer_v3.html" class="nav-link">Explore <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="nashville_ev_explorer_v3.html">
+                            <strong>Permit Explorer</strong>
+                            <span class="desc">Interactive map with filters</span>
+                        </a>
+                        <a href="map.html">
+                            <strong>Quick Map</strong>
+                            <span class="desc">Simple permit visualization</span>
+                        </a>
+                        <a href="nashville_ev_charging_analysis.html">
+                            <strong>Data Analysis</strong>
+                            <span class="desc">Charts and statistics</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="legislation.html" class="nav-link">Policy <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="legislation.html">
+                            <strong>Legislation Tracker</strong>
+                            <span class="desc">BL2025-958 & BL2025-1116</span>
+                        </a>
+                        <a href="ev_zoning_guide.html">
+                            <strong>Zoning Guide</strong>
+                            <span class="desc">District requirements</span>
+                        </a>
+                        <a href="nashville_ev_policy_hub_v2.html">
+                            <strong>Policy Hub</strong>
+                            <span class="desc">Complete resource center</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="utility_planning_guide_v4.html" class="nav-link">Plan <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="utility_planning_guide_v4.html">
+                            <strong>Utility Planning</strong>
+                            <span class="desc">NES requirements & upgrades</span>
+                        </a>
+                        <a href="costs.html">
+                            <strong>Cost Estimator</strong>
+                            <span class="desc">Installation pricing</span>
+                        </a>
+                        <a href="contractors.html">
+                            <strong>Find Contractors</strong>
+                            <span class="desc">Licensed installers</span>
+                        </a>
+                        <a href="check.html">
+                            <strong>Eligibility Check</strong>
+                            <span class="desc">Can you install?</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="guide.html" class="nav-link">Learn <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="guide.html">
+                            <strong>Getting Started</strong>
+                            <span class="desc">Installation guide</span>
+                        </a>
+                        <a href="ev_timeline_history.html">
+                            <strong>Timeline</strong>
+                            <span class="desc">Nashville's EV history</span>
+                        </a>
+                        <a href="ev_charging_by_home.html">
+                            <strong>By Property Type</strong>
+                            <span class="desc">Home, condo, multifamily</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <button class="mobile-menu-btn" onclick="document.getElementById('navLinks').classList.toggle('open')">☰</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Navigate Nashville's EV Charging Rules</h1>
+            <p>Check zoning eligibility, find installers, understand costs, and track the legislation shaping EV infrastructure.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What do you need?</h2>
+                    <p>Tools to help you install EV chargers in Nashville</p>
+                </div>
+                <div class="feature-grid">
+                    <a href="check.html" class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Check Eligibility</h3>
+                        <p>Enter an address to see what type of EV charger is allowed and what rules apply.</p>
+                        <span class="arrow">Check now →</span>
+                    </a>
+                    <a href="nashville_ev_explorer_v3.html" class="feature-card">
+                        <div class="feature-icon">🗺️</div>
+                        <h3>Permit Explorer</h3>
+                        <p>Interactive map of 889+ EV permits with filters for property type, contractor, and year.</p>
+                        <span class="arrow">Explore map →</span>
+                    </a>
+                    <a href="contractors.html" class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h3>Find Contractors</h3>
+                        <p>Browse installers ranked by experience, with permit history and pricing.</p>
+                        <span class="arrow">Find installers →</span>
+                    </a>
+                    <a href="costs.html" class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Cost Estimator</h3>
+                        <p>See real installation costs from Nashville permits—residential and commercial.</p>
+                        <span class="arrow">See costs →</span>
+                    </a>
+                    <a href="utility_planning_guide_v4.html" class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Utility Planning</h3>
+                        <p>NES service requirements, panel upgrades, and load calculations for EV charging.</p>
+                        <span class="arrow">Plan installation →</span>
+                    </a>
+                    <a href="legislation.html" class="feature-card">
+                        <div class="feature-icon">📋</div>
+                        <h3>Legislation</h3>
+                        <p>Track BL2025-958 and BL2025-1116—the bills defining EV charging zoning.</p>
+                        <span class="arrow">Track bills →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section legislation-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Legislative Status</h2>
+                    <p>Nashville is building a two-track framework for EV charging</p>
+                </div>
+                <div class="bill-grid">
+                    <div class="bill-card">
+                        <div class="bill-header">
+                            <span class="bill-number">BL2025-958</span>
+                            <span class="badge badge-success">✓ Passed</span>
+                        </div>
+                        <h3>EV Charging Facility</h3>
+                        <p>Principal use—standalone charging businesses in commercial/industrial zones.</p>
+                        <a href="https://nashville.legistar.com/LegislationDetail.aspx?ID=7498969&GUID=D13488F5-8260-4831-B867-828D75562C1D" target="_blank">View on Legistar →</a>
+                    </div>
+                    <div class="bill-card">
+                        <div class="bill-header">
+                            <span class="bill-number">BL2025-1116</span>
+                            <span class="badge badge-warning">Pending</span>
+                        </div>
+                        <h3>EV Charging Station</h3>
+                        <p>Accessory use—chargers at offices, apartments, retail. Council vote Jan 20.</p>
+                        <a href="https://nashville.legistar.com/LegislationDetail.aspx?ID=7717957&GUID=DBA9A9B2-3CA1-49E8-A122-1FFB77F4764D" target="_blank">View on Legistar →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Built for Nashville's emerging EV infrastructure market. 
+                Data from <a href="https://nashville.legistar.com" target="_blank">Metro Nashville Legistar</a> 
+                and <a href="https://data.nashville.gov" target="_blank">Open Data Portal</a>.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

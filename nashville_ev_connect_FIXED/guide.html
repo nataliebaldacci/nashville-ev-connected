@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started Guide | Nashville EV Connect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #2c3e50;
+            --navy-dark: #1a252f;
+            --gold: #f1c40f;
+            --gold-light: #f9e79f;
+            --white: #ffffff;
+            --gray-50: #f8fafc;
+            --gray-100: #f1f5f9;
+            --gray-200: #e2e8f0;
+            --gray-400: #94a3b8;
+            --gray-500: #64748b;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1e293b;
+            --green: #22c55e;
+            --amber: #f59e0b;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font);
+            background: var(--gray-50);
+            color: var(--gray-800);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--navy);
+            color: var(--white);
+            padding: 0 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--white);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .logo-text { font-size: 1.25rem; font-weight: 600; }
+
+        .nav-links { display: flex; align-items: center; gap: 4px; }
+
+        .nav-link {
+            padding: 8px 16px;
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border-radius: 6px;
+        }
+
+        .nav-link:hover { color: var(--white); background: rgba(255,255,255,0.1); }
+        .nav-link.active { color: var(--gold); }
+
+        .dropdown { position: relative; }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--white);
+            min-width: 220px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border-radius: 8px;
+            margin-top: 4px;
+            overflow: hidden;
+            z-index: 1001;
+        }
+        .dropdown:hover .dropdown-content { display: block; }
+        .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            color: var(--gray-700);
+            text-decoration: none;
+            font-size: 0.85rem;
+            border-bottom: 1px solid var(--gray-100);
+        }
+        .dropdown-content a:last-child { border-bottom: none; }
+        .dropdown-content a:hover { background: var(--gray-50); color: var(--navy); }
+        .dropdown-content a strong { display: block; color: var(--navy); margin-bottom: 2px; }
+        .dropdown-content a .desc { font-size: 0.75rem; color: var(--gray-500); }
+        .nav-link .arrow { font-size: 0.6rem; margin-left: 4px; }
+
+        .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+
+        .page-header {
+            text-align: center;
+            padding: 48px 24px 32px;
+        }
+
+        .page-header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+
+        .page-header p { color: var(--gray-500); }
+
+        .guide-content {
+            padding: 32px 0 60px;
+        }
+
+        .step-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px;
+            background: var(--gray-50);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--navy);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .step-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--navy);
+        }
+
+        .step-body {
+            padding: 20px;
+        }
+
+        .step-body p {
+            margin-bottom: 16px;
+            color: var(--gray-700);
+        }
+
+        .step-body ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        .step-body li {
+            margin-bottom: 8px;
+            color: var(--gray-700);
+        }
+
+        .step-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            background: var(--gray-100);
+            color: var(--navy);
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .step-link:hover { background: var(--gray-200); }
+
+        .info-box {
+            background: var(--gold-light);
+            border: 1px solid var(--gold);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 20px 0;
+        }
+
+        .info-box strong {
+            color: var(--navy);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .info-box p {
+            color: var(--gray-700);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 40px;
+            background: var(--navy);
+            border-radius: 12px;
+            color: var(--white);
+            margin: 32px 0;
+        }
+
+        .cta-section h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+
+        .cta-section p {
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: var(--gold);
+            color: var(--navy);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .cta-btn:hover { background: #d4ac0d; }
+
+        footer {
+            padding: 32px 24px;
+            text-align: center;
+            border-top: 1px solid var(--gray-200);
+            background: var(--white);
+        }
+
+        footer p { font-size: 0.85rem; color: var(--gray-500); }
+        footer a { color: var(--navy); }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">⚡</div>
+                <span class="logo-text">Nashville EV Connect</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <div class="dropdown">
+                    <a href="nashville_ev_explorer_v3.html" class="nav-link">Explore <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="nashville_ev_explorer_v3.html"><strong>Permit Explorer</strong><span class="desc">Interactive map with filters</span></a>
+                        <a href="map.html"><strong>Quick Map</strong><span class="desc">Simple permit visualization</span></a>
+                        <a href="nashville_ev_charging_analysis.html"><strong>Data Analysis</strong><span class="desc">Charts and statistics</span></a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="legislation.html" class="nav-link">Policy <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="legislation.html"><strong>Legislation Tracker</strong><span class="desc">BL2025-958 & BL2025-1116</span></a>
+                        <a href="ev_zoning_guide.html"><strong>Zoning Guide</strong><span class="desc">District requirements</span></a>
+                        <a href="nashville_ev_policy_hub_v2.html"><strong>Policy Hub</strong><span class="desc">Complete resource center</span></a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="utility_planning_guide_v4.html" class="nav-link">Plan <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="utility_planning_guide_v4.html"><strong>Utility Planning</strong><span class="desc">NES requirements & upgrades</span></a>
+                        <a href="costs.html"><strong>Cost Estimator</strong><span class="desc">Installation pricing</span></a>
+                        <a href="contractors.html"><strong>Find Contractors</strong><span class="desc">Licensed installers</span></a>
+                        <a href="check.html"><strong>Eligibility Check</strong><span class="desc">Can you install?</span></a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="guide.html" class="nav-link active">Learn <span class="arrow">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="guide.html"><strong>Getting Started</strong><span class="desc">Installation guide</span></a>
+                        <a href="ev_timeline_history.html"><strong>Timeline</strong><span class="desc">Nashville's EV history</span></a>
+                        <a href="ev_charging_by_home.html"><strong>By Property Type</strong><span class="desc">Home, condo, multifamily</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Getting Started with EV Charging</h1>
+            <p>A step-by-step guide to installing EV charging in Nashville</p>
+        </section>
+
+        <section class="container">
+            <div class="guide-content">
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Check Your Eligibility</div>
+                    </div>
+                    <div class="step-body">
+                        <p>Before planning your installation, verify that your property can accommodate EV charging equipment.</p>
+                        <ul>
+                            <li>Enter your address to check zoning requirements</li>
+                            <li>Review what charger types are allowed at your property</li>
+                            <li>Understand any restrictions or special requirements</li>
+                        </ul>
+                        <a href="check.html" class="step-link">Check Eligibility →</a>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Assess Your Electrical System</div>
+                    </div>
+                    <div class="step-body">
+                        <p>Most Level 2 chargers require a 240V circuit. You'll need to evaluate your current electrical capacity.</p>
+                        <ul>
+                            <li>Check your electrical panel capacity (most homes have 100-200 amp panels)</li>
+                            <li>Determine available capacity for a new 40-50 amp circuit</li>
+                            <li>Consider the distance from panel to charging location</li>
+                        </ul>
+                        <div class="info-box">
+                            <strong>💡 Panel Upgrade?</strong>
+                            <p>If your panel is under 100 amps or has limited available capacity, you may need a panel upgrade. NES can help assess your service needs.</p>
+                        </div>
+                        <a href="utility_planning_guide_v4.html" class="step-link">Utility Planning Guide →</a>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Understand Costs</div>
+                    </div>
+                    <div class="step-body">
+                        <p>Installation costs vary based on your specific situation. Here's what to budget for:</p>
+                        <ul>
+                            <li><strong>Level 2 charger equipment:</strong> $300-$700 (basic) or $500-$1,500 (smart chargers)</li>
+                            <li><strong>Installation labor:</strong> $500-$2,000 depending on complexity</li>
+                            <li><strong>Permits:</strong> $75-$150 for electrical permits</li>
+                            <li><strong>Panel upgrade (if needed):</strong> $1,500-$3,000+</li>
+                        </ul>
+                        <a href="costs.html" class="step-link">View Cost Data →</a>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">4</div>
+                        <div class="step-title">Find a Contractor</div>
+                    </div>
+                    <div class="step-body">
+                        <p>Hire a licensed electrician with EV charging installation experience.</p>
+                        <ul>
+                            <li>Review contractor rankings based on permit data</li>
+                            <li>Get multiple quotes (we recommend 2-3)</li>
+                            <li>Verify licensing with TN Contractor Board</li>
+                            <li>Ask about warranty and support</li>
+                        </ul>
+                        <a href="contractors.html" class="step-link">Find Contractors →</a>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">5</div>
+                        <div class="step-title">Permits & Installation</div>
+                    </div>
+                    <div class="step-body">
+                        <p>Your contractor typically handles the permit process, but here's what to expect:</p>
+                        <ul>
+                            <li>Electrical permit application (contractor submits)</li>
+                            <li>Installation typically takes 2-4 hours</li>
+                            <li>Metro Codes inspection after installation</li>
+                            <li>Final approval and certificate of completion</li>
+                        </ul>
+                        <a href="nashville_ev_explorer_v3.html" class="step-link">See Permit Map →</a>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Ready to start?</h3>
+                    <p>Check your property's eligibility and get connected with experienced contractors.</p>
+                    <a href="check.html" class="cta-btn">Check Eligibility →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Part of <a href="index.html">Nashville EV Connect</a> • A Homebody Projects initiative</p>
+        </div>
+    </footer>
+</body>
+</html>
