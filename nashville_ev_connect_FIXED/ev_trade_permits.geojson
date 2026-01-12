@@ -1,0 +1,2042 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Nashville EV Trade Permits (NES Service Release)",
+    "description": "Electrical service release permits for EV charging installations requiring NES coordination",
+    "source": "Nashville Trade Permits View",
+    "record_count": 70,
+    "last_updated": "2026-01-11"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5894122134639,
+          36.1782792141379
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023024264",
+        "Address": "7126 EVANS HILL WAY",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086120D10700CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STRADA SERVICES LLC",
+        "Purpose": "SP Zoning. New Single family construction - Total sq footage 3175 - 1st fl 1563; 2nd fl 885; Garage 462; Porch/Patio 265. No low voltage permit required.  No construction and demolition waste will be stored on the property and such waste shall be disposed of in a clean and sanitary manner by placing it in approved containers and having such waste discarded at an approved landfill.    Signage must be posted pursuant to M.C.L. 16.28.230, including project information signs, which shall be posted in English and Spanish with one double-sided 24  (vertical) \u00d7 36  (horizontal) sign posted for every fifty feet of site frontage, with no more than three signs required per street frontage.----------------   Service Release",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 14 Apr 2023 12:28:15 GMT",
+        "Date_Issued": "Fri, 14 Apr 2023 12:28:18 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 12,
+        "Census_Tract": 37015622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6631046012285,
+          36.045859279992
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023023852",
+        "Address": "1111 EV BELL RD",
+        "City": "ANTIOCH",
+        "State": "TN",
+        "Zip": 37013,
+        "Parcel_Number": "16300034700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SURGE ELECTRIC LLC",
+        "Purpose": "EV charging station",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 13 Apr 2023 10:09:04 GMT",
+        "Date_Issued": "Thu, 13 Apr 2023 10:22:13 GMT",
+        "Contract_Value": 14000,
+        "Council_District": 33,
+        "Census_Tract": 37019111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5895498560036,
+          36.1781992565056
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023025037",
+        "Address": "7122 EVANS HILL WAY",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086120D10800CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STRADA SERVICES LLC",
+        "Purpose": "New Single family construction - Total sq footage 2722 - 1st fl 885; 2nd fl 1263; Garge 463; Porch/Patio 231. No low voltage permit required. No construction and demolition waste will be stored on the property and such waste shall be disposed of in a clean and sanitary manner by placing it in approved containers and having such waste discarded at an approved landfill.    Signage must be posted pursuant to M.C.L. 16.28.230, including project information signs, which shall be posted in English and Spanish with one double-sided 24  (vertical) \u00d7 36  (horizontal) sign posted for every fifty feet of site frontage, with no more than three signs required per street frontage.----------------   Service Release  ",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 18 Apr 2023 09:14:00 GMT",
+        "Date_Issued": "Tue, 18 Apr 2023 09:14:04 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 12,
+        "Census_Tract": 37015622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5896908083446,
+          36.1781170345703
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023027452",
+        "Address": "7118 EVANS HILL WAY",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086120D10900CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STRADA SERVICES LLC",
+        "Purpose": "New Single family construction - Total sq footage 3349 - 1st fl 1594; 2nd fl 1174; Garage 438; Porch/Patio 143. No low voltage permit required. No construction and demolition waste will be stored on the property and such waste shall be disposed of in a clean and sanitary manner by placing it in approved containers and having such waste discarded at an approved landfill.    Signage must be posted pursuant to M.C.L. 16.28.230, including project information signs, which shall be posted in English and Spanish with one double-sided 24  (vertical) \u00d7 36  (horizontal) sign posted for every fifty feet of site frontage, with no more than three signs required per street frontage.----------------   service release",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 26 Apr 2023 15:05:51 GMT",
+        "Date_Issued": "Wed, 26 Apr 2023 15:05:55 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 12,
+        "Census_Tract": 37015622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5899830442682,
+          36.1779465820606
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023030971",
+        "Address": "7110 EVANS HILL WAY",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086120D11100CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STRADA SERVICES LLC",
+        "Purpose": "New Single Family construction - Total sq footage 2513 - 1st fl 1834; Garage 418; Porch/patio 261. No low voltage permit required.  SP Zoning.  must comply with tree regulations one new two inch tree for every 30' road frontage.  for every 50' site frontage, a 24  x 36  d/f sign must be placed in English and Spanish with information in regards to metro council bill 2017-835.----------------   Service Release",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 10 May 2023 14:31:20 GMT",
+        "Date_Issued": "Wed, 10 May 2023 14:31:24 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 12,
+        "Census_Tract": 37015622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5898352115582,
+          36.1780328177185
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023033647",
+        "Address": "7114 EVANS HILL WAY",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086120D11000CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STRADA SERVICES LLC",
+        "Purpose": "New Single Family construction - Total sq footage 2722 - 1st fl 885; 2nd fl 1263; Garage 463; Porch/Patio 111. NO low voltage permit required.  SP Zoning.  must comply with tree regulations one new two inch tree for every 30' road frontage.  for every 50' site frontage, a 24  x 36  d/f sign must be placed in English and Spanish with information in regards to metro council bill 2017-835.----------------   Service Release",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 22 May 2023 11:56:00 GMT",
+        "Date_Issued": "Mon, 22 May 2023 11:56:08 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 12,
+        "Census_Tract": 37015622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5875828616774,
+          36.2160514789358
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023043891",
+        "Address": "4811 EV LEBANON PIKE",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "06513000300",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "EnviroSpark Energy Solutions Inc.",
+        "Purpose": "Installation of EV Chargers.",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 05 Jul 2023 10:12:34 GMT",
+        "Date_Issued": "Wed, 05 Jul 2023 13:37:17 GMT",
+        "Contract_Value": 1300,
+        "Council_District": 11,
+        "Census_Tract": 37015401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6912579812371,
+          36.1551537856399
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024005605",
+        "Address": "2345 EV ATRIUM WAY",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "09510012600",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SURGE ELECTRIC LLC",
+        "Purpose": "to construct Ev charging station at existing la quinta hotel.  bb poc lindsay loson----------------   Service release",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 22 Jan 2024 16:22:27 GMT",
+        "Date_Issued": "Mon, 22 Jan 2024 16:22:31 GMT",
+        "Contract_Value": 14500,
+        "Council_District": 15,
+        "Census_Tract": 37015100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6656859955266,
+          36.146447713466
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024005607",
+        "Address": "531 EV DONELSON PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "10801007000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SURGE ELECTRIC LLC",
+        "Purpose": "to install EV charging station for la quinta hotel. no change to footprint.  bb poc  lindsay loson----------------   Service release",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 22 Jan 2024 16:26:59 GMT",
+        "Date_Issued": "Mon, 22 Jan 2024 16:27:02 GMT",
+        "Contract_Value": 14500,
+        "Council_District": 15,
+        "Census_Tract": 37015502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6802665857608,
+          36.1513737439979
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024005609",
+        "Address": "2511 EV ELM HILL PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "09500003400",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SURGE ELECTRIC LLC",
+        "Purpose": "to construct EV charging station on site for existing hotel.  bb poc lindsay loson----------------   Service release",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 22 Jan 2024 16:30:57 GMT",
+        "Date_Issued": "Mon, 22 Jan 2024 16:31:00 GMT",
+        "Contract_Value": 14500,
+        "Council_District": 15,
+        "Census_Tract": 37015100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6936257811678,
+          36.2022852227393
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024014322",
+        "Address": "357 EV OPRY MILLS DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "07300001700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "INLINE CONSTRUCTION SERVICES LLC",
+        "Purpose": "To install eight (8) EV charging stations in existing Opry Mills Mall parking lot (location to be identified later).  Not to be constructed over any easements. Construction will create an island removing approximately eight (8) parking stalls to install accessory equipment to include four (4) 350 KW power units, one (1) switchboard assembly. one (1) utility transformer and one (1) light pole.    THE HOLDER OF THIS PERMIT HEREBY CERTIFIES THAT ALL CONSTRUCTION AND DEMOLITION WASTE WILL BE DISPOSED IN AN APPROVED LANDFILL. THE HOLDER OF THIS PERMIT ALSO CERTIFIES THAT NO CONSTRUCTION OR DEMOLITION WASTE SHALL BE STORED ON THE PROPERTY IN VIOLATION OF ANY PROVISIONS OF THE METROPOLITAN CODE.  bb poc christina suarez",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 16 Feb 2024 11:40:06 GMT",
+        "Date_Issued": "Fri, 16 Feb 2024 12:02:44 GMT",
+        "Contract_Value": 0,
+        "Council_District": 15,
+        "Census_Tract": 37015300
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8921654711335,
+          36.1345090921117
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024044826",
+        "Address": "6814 EV3 CHARLOTTE PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200009900",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "DGKP SERVICES LLC",
+        "Purpose": "To install Tesla Supercharger Station within existing Target (retail) parking lot.  Installation of (3) supercharger cabinets, (12) supercharger posts, (1) switchgear assembly with integrated Tesla site controller and primary broadcast unit, (1) utility transformer, (1) meter, and other associated utility equipment, (5) pole mounted luminaires, and (2) wireless access points. OV-COM      \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..    Code Stamped plans attached in Cityworks   .      Poc: Cameron Frueh (614) 859-1632  gpdchargepermits@gpdgroup.com----------------   PLEASE SEND POWER RELEASE LETTER TO NES UPON COMPLETION OF ELECTRICAL INSPECTION",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 16 May 2024 11:30:47 GMT",
+        "Date_Issued": "Thu, 16 May 2024 11:30:50 GMT",
+        "Contract_Value": 24000,
+        "Council_District": 20,
+        "Census_Tract": 37018201
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7786306249706,
+          36.0425818997271
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024044827",
+        "Address": "780 EV OLD HICKORY BLVD",
+        "City": "BRENTWOOD",
+        "State": "TN",
+        "Zip": 37027,
+        "Parcel_Number": "16014002700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "DGKP SERVICES LLC",
+        "Purpose": "To install Tesla Supercharger Station within existing Target (retail) parking lot.  Installation of (3) supercharger cabinets, (12) supercharger posts, (1) switchgear assembly with integrated Tesla site controller and primary broadcast unit, (1) utility transformer, (1) meter, and other associated utility equipment, (4) pole mounted luminaires, and (2) wireless access points. OV-COM    Poc: Cameron Frueh (614) 859-1632  gpdchargepermits@gpdgroup.com----------------   Requesting power service release to send to NES. Install complete ",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 16 May 2024 11:39:35 GMT",
+        "Date_Issued": "Thu, 16 May 2024 11:39:39 GMT",
+        "Contract_Value": 24000,
+        "Council_District": 26,
+        "Census_Tract": 37018803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7636834735335,
+          36.1086733643228
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024068445",
+        "Address": "2534 EV POWELL AVE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37204,
+        "Parcel_Number": "11815001000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "MILLER ELECTRIC CO",
+        "Purpose": "to construct tesla supercharger lot with Installation of 24 V4 Charge Posts, 6 Supercharger Cabinets, (1) 3000A Switchgear, Utility Transformer. not to be over any easements.  bb poc margine buitrago",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 29 Jul 2024 11:40:11 GMT",
+        "Date_Issued": "Mon, 29 Jul 2024 12:04:21 GMT",
+        "Contract_Value": 0,
+        "Council_District": 26,
+        "Census_Tract": 37980200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6625146702981,
+          36.1668906269301
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024076913",
+        "Address": "2815 EV LEBANON PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "09601006700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "PRO Q CONTRACTORS",
+        "Purpose": "To install (2) level 3 electric vehicle charging stations in existing parking lot. Project includes installation of (1)  concrete equipment pad for placement of (1) 150kW rectifier, (1) 600A switchgear. NES to provide (1)  transformer and meter for charging stations.    Poc: Rebecca Sharp 603-952-0002       \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..    Code Stamped plans attached in Cityworks    .----------------      Install EV charging unit",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 22 Aug 2024 13:53:41 GMT",
+        "Date_Issued": "Thu, 22 Aug 2024 13:57:07 GMT",
+        "Contract_Value": 0,
+        "Council_District": 15,
+        "Census_Tract": 37015501
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6176635770788,
+          36.2006073322722
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024093430",
+        "Address": "4145 EV LEBANON PIKE",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "07510005600",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "McFarlin Electric LLC",
+        "Purpose": "Install (2) level 3 electric vehicle charging stations in existing parking lot accessory to existing Thornton's Gas Station. Project includes installation of (1) concrete equipment pad for placement of (1) 150kW rectifier, (1) 600A switchgear. NES to provide (1) transformer and meter for charging stations. POC: Rebecca Sharp 603.952.0002      \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..    Code stamped plans attached in Cityworks    .----------------   EV chargers",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 17 Oct 2024 07:50:54 GMT",
+        "Date_Issued": "Thu, 17 Oct 2024 07:50:57 GMT",
+        "Contract_Value": 50000,
+        "Council_District": 14,
+        "Census_Tract": 37015404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7835730480261,
+          36.1516685117082
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024088844",
+        "Address": "600 EV1 12TH AVE S",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "093130C90000CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANLEY, RON ELECTRIC",
+        "Purpose": "pulled a permit for EV charging on permit 2024081437 for a final. this requires a service release also",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 02 Oct 2024 06:34:42 GMT",
+        "Date_Issued": "Wed, 02 Oct 2024 14:14:40 GMT",
+        "Contract_Value": 1,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7835730480261,
+          36.1516685117082
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024088846",
+        "Address": "600 EV2 12TH AVE S",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "093130C90000CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANLEY, RON ELECTRIC",
+        "Purpose": "pulled a permit for EV charger on a final only 2024081440 This requires a service release to get a meter installed",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 02 Oct 2024 06:39:26 GMT",
+        "Date_Issued": "Wed, 02 Oct 2024 14:12:33 GMT",
+        "Contract_Value": 1,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7606356445881,
+          36.1902365895498
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024108429",
+        "Address": "604 EVANSTON AVE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37207,
+        "Parcel_Number": "082040G00200CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Jonathan McDade",
+        "Purpose": "to construct a single family residence or to rear of property to be unit B HPR with 2265_ SF of living space and 264 SF of porches/decks.  front entrance must be located off Evanston.  front unit already exists.  5' min interior side s/b; 10' min side street s/b; 20' min rear s/b.  units detached.  maximum allowed height is 33' based on a proposed front width of 22'.  minimum required distance between structures is 6' min with no bump outs.  must comply with tree regulations one new two inch tree for every 30' road frontage.  for every 50' site frontage, a 24  x 36  d/f sign must be placed in English and Spanish with information in regards to metro council bill 2017-835.  must comply fully with metro council bills 2014-725, 2014-770 and 2022-1270.----------------   Service Release",
+        "Status": "DONE",
+        "Date_Entered": "Sun, 08 Dec 2024 18:09:03 GMT",
+        "Date_Issued": "Sun, 08 Dec 2024 18:09:06 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 5,
+        "Census_Tract": 37011800
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7624835910037,
+          36.1460459464541
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025024611",
+        "Address": "1206 EV 1ST AVE S",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37210,
+        "Parcel_Number": "105030W90100CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "DEC LLC",
+        "Purpose": "Electrical New Construction Service Release Permit - House Meter for Car Chargers - 1206 EV 1st Ave S",
+        "Status": "EXPIRED",
+        "Date_Entered": "Mon, 24 Mar 2025 10:56:58 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 500,
+        "Council_District": 17,
+        "Census_Tract": 37016000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6987856551427,
+          36.1161090161467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025029796",
+        "Address": "3301 EV MCGAVOCK PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37217,
+        "Parcel_Number": "12000015500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SOUTHEAST ELECTRIC INC",
+        "Purpose": "to install new ev charging stations.----------------   Service for EV charging station",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 08 Apr 2025 15:38:55 GMT",
+        "Date_Issued": "Tue, 08 Apr 2025 15:39:22 GMT",
+        "Contract_Value": 47312,
+        "Council_District": 13,
+        "Census_Tract": 37015700
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6802225298663,
+          36.1272237957436
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025034877",
+        "Address": "804 EV HANGAR LN",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "10700005000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "CURRY, JOHN",
+        "Purpose": "to add ev charger station with 150kw. no change to parking.  poc leo moreno----------------   New 225 amp underground service ",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 24 Apr 2025 07:44:15 GMT",
+        "Date_Issued": "Thu, 24 Apr 2025 07:45:03 GMT",
+        "Contract_Value": 20000,
+        "Council_District": 13,
+        "Census_Tract": 37980100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7835730480261,
+          36.1516685117082
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025045483",
+        "Address": "600 EV3 12TH AVE S",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "093130C90000CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANLEY, RON ELECTRIC",
+        "Purpose": "add 125 amp metered service for EV charger  NES work order # 250500961*****This is a stand alone service in a public parking garage for a resident of the icon.  His unit is on the 15th floor and  his parking spot is on the 5th floor.  I had public works create the address based off what they did for the previous 2 I installed last year. (EV1 & EV2)  The meterbase is a modular unit that will plug into the existing power in the mechanical room.  It is its own service with meter and panel.",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 29 May 2025 07:33:59 GMT",
+        "Date_Issued": "Thu, 29 May 2025 15:28:58 GMT",
+        "Contract_Value": 1,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7413766984764,
+          36.1762362401703
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025055390",
+        "Address": "108 B EVANDER ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37206,
+        "Parcel_Number": "08310020400",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "M & M ELECTRIC & MECHANICAL LLC",
+        "Purpose": "See drawings for details. To construct a detached accessory dwelling unit (DADU). No no utility taps.**RESTRICTIVE COVENANT FOR DETACHED STRUCTURE 20250306-0016881----------------   service release for 108 b Evander  ",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 27 Jun 2025 14:50:31 GMT",
+        "Date_Issued": "Fri, 27 Jun 2025 14:52:00 GMT",
+        "Contract_Value": 5000,
+        "Council_District": 6,
+        "Census_Tract": 37012100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5981398728209,
+          36.1730502640536
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025064782",
+        "Address": "5100 EV DAYFLOWER DR",
+        "City": "HERMITAGE",
+        "State": "TN",
+        "Zip": 37076,
+        "Parcel_Number": "086160A90000CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ROMANOFF ELECTRIC RESIDENTIAL LLC",
+        "Purpose": "to install EV charging station on site for development. not to be over any easements.  bb poc augusta burgess----------------   TULIP HILLS CHARGING STATION  - 5100 EV DAYFLOWER DRIVE",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 30 Jul 2025 14:47:17 GMT",
+        "Date_Issued": "Wed, 30 Jul 2025 14:48:20 GMT",
+        "Contract_Value": 6543,
+        "Council_District": 12,
+        "Census_Tract": 37015623
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6490755220414,
+          36.1656104524459
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025062163",
+        "Address": "219 EV STEWARTS FERRY PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "09600000100",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANSELL ELECTRIC CO INC",
+        "Purpose": "to install new Ev charging stations on site. not to be over any easements.  Tiffany Dickerson.    ***Plans have been reviewed and stamped.  Attachment has been uploaded in CityWorks.***----------------   NEW SERVICE RELASE FOR ELECTRICAL PERMIT 2025 038335. ",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 22 Jul 2025 10:32:51 GMT",
+        "Date_Issued": "Tue, 22 Jul 2025 10:34:01 GMT",
+        "Contract_Value": 180000,
+        "Council_District": 14,
+        "Census_Tract": 37015501
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6926462289881,
+          36.2773523228939
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025062187",
+        "Address": "488 EV MYATT DR",
+        "City": "MADISON",
+        "State": "TN",
+        "Zip": 37115,
+        "Parcel_Number": "04300003200",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANSELL ELECTRIC CO INC",
+        "Purpose": "New service and EV charger installation accessory to existing parking lot. Not for public use. POC: Brian Dawson 615.329.4944----------------   EXISTING NES MAINTENACNE FACILITY INSTALLING POWER FOR NEW EV CHARGERS",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 22 Jul 2025 11:10:40 GMT",
+        "Date_Issued": "Tue, 22 Jul 2025 11:14:07 GMT",
+        "Contract_Value": 180000,
+        "Council_District": 9,
+        "Census_Tract": 37010401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6802225298663,
+          36.1272237957436
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025066109",
+        "Address": "804 EV HANGAR LN",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "10700005000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "CURRY, JOHN",
+        "Purpose": "to add ev charger station with 150kw. no change to parking.  poc leo moreno----------------   New 225 amp underground service",
+        "Status": "ISSUED",
+        "Date_Entered": "Tue, 05 Aug 2025 08:34:24 GMT",
+        "Date_Issued": "Tue, 05 Aug 2025 08:35:08 GMT",
+        "Contract_Value": 20000,
+        "Council_District": 13,
+        "Census_Tract": 37980100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7194607057182,
+          36.1581845640763
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025075498",
+        "Address": "130 EV SPENCE LN",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37210,
+        "Parcel_Number": "09400017800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SOURCE BROADBAND SERVICES LLC",
+        "Purpose": "to construct parking and EV chargers and appropriate electrical components for pepsico.  bb poc dylan truong----------------    INSTALL (31) L2 SINGLE PORT CHARGERS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (11) L2 DUAL PORT CHARGERS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (2) DC FAST DUAL PORT CHARGERS AND RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (2) 2000A SWITCHBOARDS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (1) 600V/1000A HEAVY DUTY SAFETY SWITCH AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (1) 480/208V - 750kVA TRANSFORMERS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (1) 480/208V - 500KVA TRANSFORMERS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (1) 480/208V - 300kVA TRANSFORMERS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (9) 400A - 3PH - 3W FUSED DISCONNECTS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (2) 600A - 3PH - 3W FUSED DISCONNECTS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES \u00b7 INSTALL (9) 400A - 3PH - 3W ATOM PANEL BOARDS AND ALL RELATED ELECTRICAL & CIVIL ACTIVITIES",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 05 Sep 2025 08:22:22 GMT",
+        "Date_Issued": "Fri, 05 Sep 2025 08:24:57 GMT",
+        "Contract_Value": 100000,
+        "Council_District": 15,
+        "Census_Tract": 37019600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6267955204547,
+          36.1539161866248
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025083815",
+        "Address": "3454 EV PERCY PRIEST DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "09700013100",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Global Technical Solutions, LLC",
+        "Purpose": "to construct new tesla supercharging station on site. not to be over any easements.  bb poc cameron frueh----------------   INSTALLING  1600 amp service",
+        "Status": "ISSUED",
+        "Date_Entered": "Thu, 02 Oct 2025 14:51:00 GMT",
+        "Date_Issued": "Thu, 02 Oct 2025 14:54:58 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 13,
+        "Census_Tract": 37015624
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.635793823996,
+          36.2427441253223
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025086357",
+        "Address": "3401 EV FERRELL DR",
+        "City": "OLD HICKORY",
+        "State": "TN",
+        "Zip": 37138,
+        "Parcel_Number": "05312021300",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Southeast Electric",
+        "Purpose": "to install ev charging stations. not to be over any easements.Service release request to energize main panel for testing.",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 13 Oct 2025 10:07:13 GMT",
+        "Date_Issued": "Mon, 13 Oct 2025 10:39:55 GMT",
+        "Contract_Value": 91444,
+        "Council_District": 11,
+        "Census_Tract": 37010502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7673017142087,
+          36.1900215926159
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025093982",
+        "Address": "300 EVANSTON AVE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37207,
+        "Parcel_Number": "08203026700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "FULL LOAD ELECTRICAL SERVICES, LLC",
+        "Purpose": "Construct a Detached Accessory Dwelling Unit with an unconditioned garage @ 499 SF and conditioned living space @ 194 SF on the main level and 658 SF on the upper level. Utilities will include electrical, HVAC, and plumbing. No gas.  SP Overlay for DADU residences.  for every 50' site frontage, a 24  x 36  d/f sign must be placed in English and Spanish with information in regards to metro council bill 2017-835.  *** Restrictive Covenant for Accessory Dwelling - 20250818-0065689 ***----------------   Adding new 200 amp overhead service to new dwelling unit. ",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 06 Nov 2025 14:54:24 GMT",
+        "Date_Issued": "Thu, 06 Nov 2025 14:58:10 GMT",
+        "Contract_Value": 1000,
+        "Council_District": 5,
+        "Census_Tract": 37011800
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8111503273389,
+          36.1437419675887
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023022095",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37212,
+        "Parcel_Number": "10403024700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "CONTI CORPORATION",
+        "Purpose": "INSTALLATION OF 6 EV CHARGERS FOR VANDERBILT POLICE DEPT",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 05 Apr 2023 13:54:16 GMT",
+        "Date_Issued": "Wed, 05 Apr 2023 14:26:21 GMT",
+        "Contract_Value": 0,
+        "Council_District": 18,
+        "Census_Tract": 37016600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8111503273389,
+          36.1437419675887
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2023022226",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37212,
+        "Parcel_Number": "10403024700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "CONTI CORPORATION",
+        "Purpose": "INSTALLING 6 EV CHARGES PARKING LOT OF VANDERBILT POLICE DEPT",
+        "Status": "CANCELLED",
+        "Date_Entered": "Thu, 06 Apr 2023 08:29:23 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 0,
+        "Council_District": 18,
+        "Census_Tract": 37016600
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7858313265407,
+          36.1931527231743
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023042074",
+        "Address": "115 GREAT CIRCLE RD 401-478",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37228,
+        "Parcel_Number": "07113000600",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "EnviroSpark Energy Solutions Inc.",
+        "Purpose": "Installation of EV charging Stations. NES will power up and install new meter.",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 27 Jun 2023 08:55:30 GMT",
+        "Date_Issued": "Tue, 27 Jun 2023 09:58:39 GMT",
+        "Contract_Value": 8616,
+        "Council_District": 2,
+        "Census_Tract": 37013700
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2023061267",
+        "Address": "7600 CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "IN2 ELECTRIC LLC",
+        "Purpose": "New service for EV chargers",
+        "Status": "EXPIRED",
+        "Date_Entered": "Mon, 28 Aug 2023 09:30:02 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 22000,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.70063696352,
+          36.32402099887
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024013940",
+        "Address": null,
+        "City": "GOODLETTSVILLE",
+        "State": "TN",
+        "Zip": 37072,
+        "Parcel_Number": "01914001700",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SURGE ELECTRIC LLC",
+        "Purpose": "Installation of EV charging station - service release",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 15 Feb 2024 13:58:47 GMT",
+        "Date_Issued": "Thu, 15 Feb 2024 15:30:55 GMT",
+        "Contract_Value": 14500,
+        "Council_District": 10,
+        "Census_Tract": 37010303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7691961191701,
+          36.1587752544973
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024056063",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37201,
+        "Parcel_Number": "09311025600",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENTERPRISE ELECTRIC LLC",
+        "Purpose": "THIS APPLICATION AND DOCUMENTS HAVE BEEN SUBMITTED TO OBTAIN  residential retail core and shell levels L1 to roof PROJECT SUMMARY - 1.2M SQUARE FOOT MIXED USE PROJECT COMPRISED OF TWO BUILDINGS ATOP A PODIUM WHICH IS A SHARED FOUR LEVEL SUBGRADE PARKING STRUCTURE WITH APPROXIMATELY 1,036 PARKING SPACES THE EASTERN BUILDING IS APPROXIMATELY 503,000 SF, 27-STORY MULTl-FAMILY STRUCTURE WITH RETAIL AND OFFICE COMPONENTS AT ITS BASE. THE WESTERN BUILDING IS A 254,000SF, 6-STORY COMMERICAL OFFICE STRUCTURE WITH RETAIL AT ITS BASE.  POC BLAINE KIMBROUGH 615-329-1399----------------      1600A, 480/277V Electrical Service to serve future EV dchargers*****HM2 for MSG",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 18 Jun 2024 14:43:06 GMT",
+        "Date_Issued": "Tue, 18 Jun 2024 14:43:08 GMT",
+        "Contract_Value": 14000000,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024059481",
+        "Address": "140 10TH AVE N",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "VOLUNTEER ELECTRIC INC",
+        "Purpose": "Nashville Yards Parcel 09  Master Permit: # T2021081846    Construction Documents  Permit: # ___________ (need new #)    This Permit submittal includes the full scope of work required to complete construction for Component 00 (Podium); this includes levels p6 through 01.  This package includes general, civil, landscape, structural, life safety, architectural, interiors, mechanical, electrical, plumbing/fire protection,   telecommunication, and code signage.  Additionally, this work includes revisions to the areas under Components 01, 02, 03, 04, and 05, which was previously submitted under the previous ERP #1, ERP #2, and ERP#3 permit submittals.  POC RYAN BOYLAND 615-770-8166 or 610-500-3310----------------   *** THE 400 AMP SERVICE FOR THE EV CHARGING STATION IS AT ADDRESS 150 EV 10TH AVE N ***",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 27 Jun 2024 14:49:56 GMT",
+        "Date_Issued": "Thu, 27 Jun 2024 14:49:59 GMT",
+        "Contract_Value": 10000000,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024069620",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------      Service Release Permit for 3000A Switchboard MSH-N          *****930 hm commerce st --- HOUSE METER ********",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 31 Jul 2024 21:39:10 GMT",
+        "Date_Issued": "Wed, 31 Jul 2024 21:39:13 GMT",
+        "Contract_Value": 30796787,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024069621",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------   Service Release Permit for 1600A Switchboard MSR-Retail ",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 31 Jul 2024 21:46:22 GMT",
+        "Date_Issued": "Wed, 31 Jul 2024 21:46:24 GMT",
+        "Contract_Value": 30796787,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024069622",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------   Service release permit for 4000A Switchboard MSRS1. ",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 31 Jul 2024 22:07:12 GMT",
+        "Date_Issued": "Wed, 31 Jul 2024 22:07:14 GMT",
+        "Contract_Value": 30796787,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024069623",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------   Service release permit for 4000A Switchboard MSRS2. ",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 31 Jul 2024 22:14:04 GMT",
+        "Date_Issued": "Wed, 31 Jul 2024 22:14:07 GMT",
+        "Contract_Value": 30796787,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024073496",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------   Service release permit for 4000A Switchboard MSH-S.",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 13 Aug 2024 16:40:13 GMT",
+        "Date_Issued": "Tue, 13 Aug 2024 16:40:15 GMT",
+        "Contract_Value": 30802443,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7849300100378,
+          36.1601715288467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024103047",
+        "Address": "930 COMMERCE ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305440500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "Power Design, Inc.",
+        "Purpose": "**See related master permit 2021081846 and structural frame 2022054531**... Shell 2022070954  Infill Building Permit for Level P4 of the parking garage and the Main Electric Room, Fire Pump Room, and EV Charging Electrical Rooms accessed  from the P4 garage.  Architect: Adam Thomason Contact: Rob Binford----------------   Service Release Permit for 4000A Switchboard MSH-EV",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 18 Nov 2024 10:41:44 GMT",
+        "Date_Issued": "Mon, 18 Nov 2024 10:41:46 GMT",
+        "Contract_Value": 31483601,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8150196002681,
+          36.1075705041285
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024113116",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37215,
+        "Parcel_Number": "11714005500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "TRIPLE E ELECTRIC",
+        "Purpose": "To install 8 EV charging stations on the ground floor of existing parking garage (near Macy's). Includes 1 utility transformer, 1 switchboard assembly, 4 360 Kw BTC power units and 8 BTC dispensers. POC: Christina Suarez 913.458.6725----------------..Lock box 3526... THIS IS A COMMERCIAL JOB.",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 26 Dec 2024 15:49:49 GMT",
+        "Date_Issued": "Thu, 26 Dec 2024 15:49:52 GMT",
+        "Contract_Value": 10000,
+        "Council_District": 25,
+        "Census_Tract": 37017901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025006299",
+        "Address": "7600 C CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers  - NES work order 250101680",
+        "Status": "EXPIRED",
+        "Date_Entered": "Thu, 23 Jan 2025 15:25:24 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025006305",
+        "Address": "7600 D CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers  - NES work order 250101682    Note: We are doing 3 services at different locations on the property",
+        "Status": "EXPIRED",
+        "Date_Entered": "Thu, 23 Jan 2025 15:33:15 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025006311",
+        "Address": "7600 E CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers  - NES work order 250101683    Note: We are doing 3 services at different locations on the property",
+        "Status": "EXPIRED",
+        "Date_Entered": "Thu, 23 Jan 2025 15:37:31 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025015568",
+        "Address": "7600 C CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers - NES work order 250101680",
+        "Status": "EXPIRED",
+        "Date_Entered": "Mon, 24 Feb 2025 09:10:48 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025015576",
+        "Address": "7600 D CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers - NES work order 250101680",
+        "Status": "EXPIRED",
+        "Date_Entered": "Mon, 24 Feb 2025 09:18:16 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025015586",
+        "Address": "7600 E CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "Install 200-amp Service, Panel and (2) EV Chargers - NES work order 250101680",
+        "Status": "EXPIRED",
+        "Date_Entered": "Mon, 24 Feb 2025 09:23:58 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 8500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6987856551427,
+          36.1161090161467
+        ]
+      },
+      "properties": {
+        "Permit_Number": "T2025017196",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37217,
+        "Parcel_Number": "12000015500",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SOUTHEAST ELECTRIC INC",
+        "Purpose": "Installing new 400 amp overhead service for Metro EV chargers",
+        "Status": "EXPIRED",
+        "Date_Entered": "Thu, 27 Feb 2025 13:17:42 GMT",
+        "Date_Issued": null,
+        "Contract_Value": 50000,
+        "Council_District": 13,
+        "Census_Tract": 37015700
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8997246737962,
+          36.1342854365553
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025025209",
+        "Address": "7600 CABOT DR",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "10200001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "ENERGY COMMAND CORP",
+        "Purpose": "To install one podium dual charging station (serving 2 parking spaces at each building location) on a concrete foundation and associated electrical modifications. Accessory to the existing apartment buildings. POC: Steve Leake 615.297.9070----------------   2025025202  Bells Bluff Apartments - Install (3) 200 amp Services for (3) Duel EV Chargers  -  -   NES Work Orders:  7600 C Cabot Dr. - #250101680, 7600 D Cabot Dr. - #250101682, 7600 E Cabot Dr. - #250101683 ",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 25 Mar 2025 13:53:25 GMT",
+        "Date_Issued": "Tue, 25 Mar 2025 13:54:13 GMT",
+        "Contract_Value": 25500,
+        "Council_District": 20,
+        "Census_Tract": 37018301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7389405436722,
+          36.2508140410088
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025056284",
+        "Address": "620 B W DUE WEST AVE",
+        "City": "MADISON",
+        "State": "TN",
+        "Zip": 37115,
+        "Parcel_Number": "05106006000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "BA ELECTRIC LLC",
+        "Purpose": "Power for (3) dual EV chargers - (6) 40 amp 240v breakers",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 02 Jul 2025 06:11:20 GMT",
+        "Date_Issued": "Wed, 02 Jul 2025 06:29:20 GMT",
+        "Contract_Value": 5000,
+        "Council_District": 3,
+        "Census_Tract": 37010802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6961371318889,
+          36.2251453395604
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025059188",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "06200015800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "HARRIS ELECTRIC LLC",
+        "Purpose": "TO INSTALL EV CHARGING STATION WITH (2) ATTACHED 48A LEVEL 2 EV CHARGERS + (1) DETACHED 48A LEVEL 2 EV CHARGER MOUNTED ON 5X5 ACCESSIBLE EV CHARGING PEDESTAL.    POC: JOSH GIDCUMB 407-506-6141    \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.    Code stamped plans attached in Cityworks     .----------------   200 AMP SERVICE",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 11 Jul 2025 12:27:19 GMT",
+        "Date_Issued": "Fri, 11 Jul 2025 12:28:08 GMT",
+        "Contract_Value": 18000,
+        "Council_District": 15,
+        "Census_Tract": 37015300
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7637429343609,
+          36.140979340454
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025089589",
+        "Address": "1300 4TH AVE S",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37210,
+        "Parcel_Number": "10507045900",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "EPI ELECTRIC LLC",
+        "Purpose": "To construct multi-family residential building with 5,712 SF of retail space.     Poc: Jackson LeBeau 757-635-2062     Must comply with 17.12.020D, MUL-A-NS: Max. FAR 2.00 (with bonus), Max. ISR 0.90, 20\u2019 Min. Rear Setback, Max. Height in Build-to Zone: 3 stories in 45 feet, Min. Step-back: 15 feet, Max. Height 4 stories in 60 feet, Build-to Zone 0-15 within UZO.  NO STR PERMITS ALLOWED within this project.      bb poc jackson lebeau----------------   EV CHARGER 400AMPS",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 23 Oct 2025 12:08:10 GMT",
+        "Date_Issued": "Thu, 23 Oct 2025 12:10:01 GMT",
+        "Contract_Value": 5000,
+        "Council_District": 17,
+        "Census_Tract": 47037016100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8789170112412,
+          36.1851859833155
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023008238",
+        "Address": "7256 CENTENNIAL PL",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "07900005000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "LAWSON, RONALD DBA THE LIGHT ELECTRICAL SERVICES",
+        "Purpose": "40,170 sf. New Building for  Tesla, Inc.  Collision Center. The proposed project consists of a new structure that will be used as a Collision Center. Work Includes: New Concrete Tilt Up Building, Incoming Electric, Plumbing and Gas Lines, Exterior Signage, Installation of Electric Vehicle Charging Equipment, Paint Booth Installation, fire pump house, and Thickened slab for lifts.  POC ABDUL ALI.  two loading spaces required---two provided.  122 spaces required---159 spaces provided.----------------   This is for permit 2021079726",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 07 Feb 2023 13:44:38 GMT",
+        "Date_Issued": "Tue, 07 Feb 2023 13:44:41 GMT",
+        "Contract_Value": 500000,
+        "Council_District": 20,
+        "Census_Tract": 37013000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8789170112412,
+          36.1851859833155
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023017811",
+        "Address": "7256 CENTENNIAL PL",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37209,
+        "Parcel_Number": "07900005000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "LAWSON, RONALD DBA THE LIGHT ELECTRICAL SERVICES",
+        "Purpose": "40,170 sf. New Building for  Tesla, Inc.  Collision Center. The proposed project consists of a new structure that will be used as a Collision Center. Work Includes: New Concrete Tilt Up Building, Incoming Electric, Plumbing and Gas Lines, Exterior Signage, Installation of Electric Vehicle Charging Equipment, Paint Booth Installation, fire pump house, and Thickened slab for lifts.  POC ABDUL ALI.  two loading spaces required---two provided.  122 spaces required---159 spaces provided.----------------   This is for the fire pump at 7256 Centennial Place Nashville TN. The fire pump service is separate from building service. ",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 17 Mar 2023 20:50:25 GMT",
+        "Date_Issued": "Fri, 17 Mar 2023 20:50:28 GMT",
+        "Contract_Value": 500000,
+        "Council_District": 20,
+        "Census_Tract": 37013000
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7253874114864,
+          36.1103265949529
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023020797",
+        "Address": "61 E THOMPSON LN",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37211,
+        "Parcel_Number": "11911017800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "LEADING EDGE SERVICES INC",
+        "Purpose": "\u00b7 INSTALL (4) TESLA SUPERCHARGER CABINETS  \u00b7 INSTALL (16) TESLA CHARGING POSTS  \u00b7 INSTALL (1) 2000A, 277/480V SWITCHGEAR 'EV2'  \u00b7 INSTALL (1) PAD MOUNTED UTILITY TRANSFORMER (SIZED BY UTILITY)****\u2022\tThis is an existing TESLA supercharger site with Transformer, CT and Metering.  \u2022\tWe are adding a 2000amp service with new meter and CT cabinet to this existing site.  \u2022\tThe utility is upgrading the transformer to facilitate new 2000amp service.  \u2022\tMetered Service: 2000amps  \u2022\tSwitchboard: 2000amps",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 31 Mar 2023 09:23:01 GMT",
+        "Date_Issued": "Fri, 31 Mar 2023 11:47:28 GMT",
+        "Contract_Value": 0,
+        "Council_District": 16,
+        "Census_Tract": 37017401
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7555987396549,
+          36.2444071845551
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023065864",
+        "Address": "3451 C DICKERSON PIKE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37207,
+        "Parcel_Number": "05000016100",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "MILLER ELECTRIC CO",
+        "Purpose": "Installation of 16 Electric TESLA Vehicle Charging Stations FOR SKYLINE HOSPITALITY 2000 AMPS TO CHARGE 4 CHARGING CABINETS 1 MDP",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 11 Sep 2023 10:15:52 GMT",
+        "Date_Issued": "Tue, 12 Sep 2023 09:27:49 GMT",
+        "Contract_Value": 220000,
+        "Council_District": 5,
+        "Census_Tract": 37010903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8307871398983,
+          36.1364853925294
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2023093112",
+        "Address": "3713 B PRINCETON AVE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37205,
+        "Parcel_Number": "10405016300",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "WIRED LLC",
+        "Purpose": "11-29-23 changed 200 amp to 400 amp --- will feed house and garage *******        RESTRICITVE COVENANT FOR DETACHED STRUCTURE 20230628-0049335*******    This is revised from T2023033796  To demolish the existing detached accessory garage structure and construct a new three-car garage (988sf) with 2nd story-conditioned space. The plans have been revised with historic commission (Permit number 2023039694). The new garage will have a setback from the alley of 14.25 feet and 5' setbacks from both sides. The new sidewalk will be poured from the new garage to the current patio area. All new work will be inspected in a timely matter with both codes and the historic department throughout construction.  The new structure will be utilized for parking cars with the future of at least two charging stations as well as utilizing shop tools on the main floor. The upstairs area will be used for excess storage and hobby work. We will have a bathroom water closet and hand sink and will tier into existing plumbing lines. 200 Amp service will be required for the above needs. This will",
+        "Status": "DONE",
+        "Date_Entered": "Mon, 27 Nov 2023 13:25:54 GMT",
+        "Date_Issued": "Mon, 27 Nov 2023 15:07:08 GMT",
+        "Contract_Value": 0,
+        "Council_District": 24,
+        "Census_Tract": 37016700
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7814379746489,
+          36.1516801727878
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024028435",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09314056200",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "EVERGREEN INNOVATION GROUP LLC",
+        "Purpose": "Renovation to existing building includes construction of interior walls, new fixtures and finishes, doors and lighting, new electrical outlets for new equipment, and structural modifications. Addition of restrooms, janitor closet, and associated plumbing work is included. The scope also includes site work, and the addition of electric charging stations in the existing parking garage.**RIVIAN**...SEE RELATED DEMOLITION PERMIT 2023077989....  bb poc madison Gilmore...mgilmore@reztark.com----------------   Service Release ",
+        "Status": "DONE",
+        "Date_Entered": "Thu, 28 Mar 2024 09:12:25 GMT",
+        "Date_Issued": "Thu, 28 Mar 2024 09:12:28 GMT",
+        "Contract_Value": 1500,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7916244433416,
+          36.1606093735471
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024039864",
+        "Address": "300 GEORGE L DAVIS BLVD",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305010000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANSELL ELECTRIC CO INC",
+        "Purpose": "To install multiple electric vehicle charging stations within private parking lot for existing tenant; Nashville Electric Service.    Poc: Brian Dawson 615-566-8704       \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..    Code stamped plans attached in Cityworks    .----------------   SERVICE RELEASE FOR ELECTRICAL PERMIT #  2024015748      DC675 300 GEORGE L DAVIS BLVD 37203       ",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 01 May 2024 10:26:00 GMT",
+        "Date_Issued": "Wed, 01 May 2024 10:26:13 GMT",
+        "Contract_Value": 270000,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7916244433416,
+          36.1606093735471
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024039869",
+        "Address": "300 GEORGE L DAVIS BLVD",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "09305010000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "STANSELL ELECTRIC CO INC",
+        "Purpose": "To install multiple electric vehicle charging stations within private parking lot for existing tenant; Nashville Electric Service.    Poc: Brian Dawson 615-566-8704       \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026..    Code stamped plans attached in Cityworks    .----------------   2024015748      DC675 300 GEORGE L DAVIS BLVD 37203       ",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 01 May 2024 10:29:59 GMT",
+        "Date_Issued": "Wed, 01 May 2024 10:30:01 GMT",
+        "Contract_Value": 270000,
+        "Council_District": 19,
+        "Census_Tract": 37019500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7653772104412,
+          36.1367573617173
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2024074575",
+        "Address": "511 C MOORE AVE",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37203,
+        "Parcel_Number": "105072V00300CO",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "EMPIRE ELECTRIC LLC",
+        "Purpose": "To construct a detached single-family dwelling as the 3rd dwelling of a MF development. The proposed structure is 3 stories with 3-car carport and 1,300 sq ft conditioned space on the 2nd and 3rd stories. 5' side and rear setbacks. Within the Wedgewood-Houston/Chestnut Hill Urban Design Overlay District's Merritt-Southgate Neighborhood. Must be constructed consistent with Planning Dept UDO approval #202300901.    THE HOLDER OF THIS PERMIT HEREBY CERTIFIES THAT ALL CONSTRUCTION AND DEMOLITION WASTE WILL BE DISPOSED IN AN APPROVED LANDFILL. THE HOLDER OF THIS PERMIT ALSO CERTIFIES THAT NO CONSTRUCTION OR DEMOLITION WASTE SHALL BE STORED ON THE PROPERTY IN VIOLATION OF ANY PROVISIONS OF THE METROPOLITAN CODE.    FOR EVERY 50 FEET OF SITE FRONTAGE, A DOUBLE-SIDED SIGN 24\u201d X 36\u201d IN SIZE MUST BE POSTED IN ENGLISH AND SPANISH THAT CONTAINS THE INFORMATION REQUIRED BY ORDINANCE NO. 2017-835. NO MORE THAN THREE SIGNS ARE REQUIRED.----------------   200 amp",
+        "Status": "DONE",
+        "Date_Entered": "Fri, 16 Aug 2024 07:23:50 GMT",
+        "Date_Issued": "Fri, 16 Aug 2024 07:23:54 GMT",
+        "Contract_Value": 2500,
+        "Council_District": 17,
+        "Census_Tract": 47037016100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7476279999196,
+          36.1762976771396
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025047372",
+        "Address": "1211 C HOLLY ST",
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37206,
+        "Parcel_Number": "08309025200",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "SELF CONTRACTOR RESIDENTIAL (SEE APPLICANT INFORMATION)",
+        "Purpose": "EXISTING DETACHED GARAGE SERVICE FOR CAR CHARGERS.",
+        "Status": "DONE",
+        "Date_Entered": "Wed, 04 Jun 2025 10:01:39 GMT",
+        "Date_Issued": "Wed, 04 Jun 2025 10:06:33 GMT",
+        "Contract_Value": 0,
+        "Council_District": 6,
+        "Census_Tract": 37019200
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6191374077532,
+          36.0312804513682
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025072791",
+        "Address": null,
+        "City": "ANTIOCH",
+        "State": "TN",
+        "Zip": 37013,
+        "Parcel_Number": "17500021200",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "VETTER ELECTRIC INC",
+        "Purpose": "Service release for battery chargers",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 26 Aug 2025 14:07:13 GMT",
+        "Date_Issued": "Tue, 02 Sep 2025 08:40:50 GMT",
+        "Contract_Value": 75000,
+        "Council_District": 32,
+        "Census_Tract": 37015630
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6784401588225,
+          36.1857650079096
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025072795",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37214,
+        "Parcel_Number": "08400001800",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "VETTER ELECTRIC INC",
+        "Purpose": "Service release for bus chargers.",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 26 Aug 2025 14:11:30 GMT",
+        "Date_Issued": "Tue, 02 Sep 2025 08:36:55 GMT",
+        "Contract_Value": 75000,
+        "Council_District": 15,
+        "Census_Tract": 37015300
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7538915020404,
+          36.1323880516709
+        ]
+      },
+      "properties": {
+        "Permit_Number": "2025072804",
+        "Address": null,
+        "City": "NASHVILLE",
+        "State": "TN",
+        "Zip": 37210,
+        "Parcel_Number": "10512005000",
+        "Permit_Type": "Electrical Permit",
+        "Permit_Subtype": "ELECT SERVICE RELEASE",
+        "Trade": "Electrical",
+        "Contractor": "VETTER ELECTRIC INC",
+        "Purpose": "Service release for bus chargers.",
+        "Status": "DONE",
+        "Date_Entered": "Tue, 26 Aug 2025 14:15:51 GMT",
+        "Date_Issued": "Tue, 02 Sep 2025 08:32:19 GMT",
+        "Contract_Value": 75000,
+        "Council_District": 16,
+        "Census_Tract": 37017200
+      }
+    }
+  ]
+}
